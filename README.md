@@ -1,13 +1,14 @@
-# Daily-Planner
+# Daily Planner 🗓️
 
-A simple web app to manage my daily tasks.
+A simple web app to manage you daily tasks.
 
-## Features
+## 🧠 Features
 - Add new tasks
-- Mark tasks as complete
+- Complete tasks
 - Delete tasks
-- Search through tasks
-- Saves automatically
+- Search tasks
+- Save tasks in localStorage
+
 
 ## How to Use
 1. Open `index.html` in your browser
@@ -15,7 +16,22 @@ A simple web app to manage my daily tasks.
 3. Check the box when done
 4. Use the search box to find tasks
 
+## 🎯 Stretch Goals
+- Back to top button
+- Tags/categories
+
+
+## 💻 Built With
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+
 ## Future Improvements
+- Back to top button
+- Tags/categories
 - Add categories
 - Set due dates
 - Dark mode
+
+

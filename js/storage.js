@@ -4,5 +4,10 @@ export function loadTasks() {
 }
 
 export function saveTasks(tasks) {
-  localStorage.setItem('dailyPlannerTasks', JSON.stringify(tasks));
+  // const savedTasks = localStorage.getItem('dailyPlannerTasks');
+  // const data = savedTasks ? JSON.parse(savedTasks) : [];
+  // console.log(tasks)
+   localStorage.setItem('dailyPlannerTasks', JSON.stringify(tasks));
+  
 }
+

@@ -17,6 +17,10 @@ renderTasks(tasks, taskList);
 taskForm.addEventListener("submit", e => {
   e.preventDefault();
   const newTask = createTask(taskInput.value.trim());
+ if (tasks.some(task => task.text === newTask.text)) {
+    alert("Task already exists!");
+    return;
+  }
   tasks.push(newTask);
   saveTasks(tasks);
   renderTasks(tasks, taskList);

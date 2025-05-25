@@ -1,6 +1,6 @@
 # Daily Planner 🗓️
 
-A simple web app to manage your daily tasks.
+A simple web app to manage daily tasks.
 
 ## 🧠 Features
 - Add new tasks
@@ -10,7 +10,7 @@ A simple web app to manage your daily tasks.
 - Save tasks in localStorage
 
 
-## How to Use
+## ▶️ How to Use
 1. Open `index.html` in your browser
 2. Type a task and press "Add Task"
 3. Check the box when done
@@ -27,7 +27,7 @@ A simple web app to manage your daily tasks.
 - JavaScript (ES6+)
 
 
-## Future Improvements
+## 🔮 Future Improvements
 - Back to top button
 - Tags/categories
 - Add categories

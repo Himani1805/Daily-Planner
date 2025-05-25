@@ -1,5 +1,4 @@
 # Daily-Planner
-# My Daily Planner
 
 A simple web app to manage my daily tasks.
 

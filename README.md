@@ -1,6 +1,6 @@
 # Daily Planner 🗓️
 
-A simple web app to manage you daily tasks.
+A simple web app to manage your daily tasks.
 
 ## 🧠 Features
 - Add new tasks

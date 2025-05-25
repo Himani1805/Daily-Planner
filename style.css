@@ -1,0 +1,179 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body Styling === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9fb;
+  color: #333;
+  min-height: 100vh;
+  padding: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+}
+
+/* === Main Container === */
+main {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* === Form Styling === */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#task-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* === Search Input === */
+#search-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* === Task List === */
+#task-list {
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  transition: background 0.3s ease;
+}
+
+.task-item:hover {
+  background: #f1f5f9;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* === Task Buttons === */
+.task-item button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.complete-btn {
+  color: green;
+}
+
+.delete-btn {
+  color: red;
+}
+
+/* === Clear All Button === */
+#clear-all {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#clear-all:hover {
+  background: #a71d2a;
+}
+
+/* === Back to Top Button === */
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  padding: 12px 16px;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#back-to-top:hover {
+  background: #111;
+  transform: translateY(-3px);
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  #clear-all {
+    font-size: 0.9rem;
+  }
+}
